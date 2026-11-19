@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class SistemaMonitoramento {
 
     private static final String ARQUIVO_HISTORICO = "historico_leituras.csv";
-    private static final String CODIGO_PADRAO = "citizen2026";
+    private static final String CODIGO_PADRAO = "alagamento2026";
     private static final int JANELA_MEDIA_MOVEL = 5;
     private static final int PERIODO_COMPARACAO = 3;
     private static final int MAXIMO_LEITURAS_SIMULADAS = 50;
@@ -38,7 +38,7 @@ public class SistemaMonitoramento {
         this.arquivoHistorico = arquivoHistorico;
 
         // territorio descrito por regiao (nunca por pessoas)
-        this.dados = new DadosTerritorio("Bairro Exemplo - Zona Leste", 45000, 6, CODIGO_PADRAO);
+        this.dados = new DadosTerritorio("Jardim Helena - Zona Leste", 52000, 8, CODIGO_PADRAO);
         String regiao = dados.getRegiao();
 
         SensorChuva chuva = new SensorChuva("SEN-CHUVA-01", regiao, random);

@@ -8,7 +8,7 @@ public class SensorChuva extends ComponenteTerritorial implements Sensor {
 
     private static final double FAIXA_MINIMA = 0.0;
     private static final double FAIXA_MAXIMA = 200.0;
-    private static final double RUIDO = 4.0;                 // variacao aleatoria de cada leitura
+    private static final double RUIDO = 5.0;                 // variacao aleatoria de cada leitura
     private static final double CHUVA_MAXIMA_CENARIO = 18.0; // empurrao por leitura em tempestade
 
     private final Random random;

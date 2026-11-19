@@ -36,7 +36,7 @@ java SistemaMonitoramento --seed 42
 Notas:
 
 - Todas as mensagens do console são escritas **sem acentos** de propósito, para não aparecerem caracteres quebrados no terminal do Windows.
-- O **código de acesso padrão** para alterar limiares é `citizen2026` (pode ser trocado no menu 3 → opção 6).
+- O **código de acesso padrão** para alterar limiares é `alagamento2026` (pode ser trocado no menu 3 → opção 6).
 - O arquivo `historico_leituras.csv` é criado na pasta onde o programa roda (veja "Bônus").
 
 ### Roteiro rápido para ver tudo funcionando

@@ -9,7 +9,7 @@ public class SensorNivelRio extends ComponenteTerritorial implements Sensor {
     private static final double FAIXA_MINIMA = 0.0;
     private static final double FAIXA_MAXIMA = 15.0;
     private static final double NIVEL_NORMAL = 1.2;          // para onde o rio "volta" sem chuva
-    private static final double RUIDO = 0.1;
+    private static final double RUIDO = 0.12;
     private static final double SUBIDA_MAXIMA_CENARIO = 0.4; // metros por leitura em tempestade
 
     private final Random random;
